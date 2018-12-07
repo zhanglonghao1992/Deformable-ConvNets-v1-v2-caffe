@@ -74,11 +74,11 @@ message ModulatedDeformableConvolutionParameter {
 ```
 Model structure:  
 --------
-Deformable_ConvNet_V1:  
+Deformable_ConvNet_V1 in ResNet:    
 ![Deformable_ConvNet_V1](https://github.com/zhanglonghao1992/ReadmeImages/blob/master/images/WFOB%60M_%24AD9I4BHW3L4JV5F.png)    
     
     
-Deformable_ConvNet_V2:    
+Deformable_ConvNet_V2 in Resnet:      
 ![Deformable_ConvNet_V2](https://github.com/zhanglonghao1992/ReadmeImages/blob/master/images/ZHR5PSZBMDJS48%605YZY.png)      
   
 Acknowlegement:  
