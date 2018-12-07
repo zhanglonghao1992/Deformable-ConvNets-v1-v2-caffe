@@ -1,8 +1,6 @@
 # Deformable-ConvNets(v1&v2)-caffe
-Thanks to [offical mxnet code](https://github.com/msracver/Deformable-ConvNets)  
-Thanks to [unsky](https://github.com/unsky/Deformable-ConvNets-caffe)  
   
-Add the code in your caffe:  
+Add the code to your caffe:  
 --------
 ```
 move deformable_conv_layer.cpp and deformable_conv_layer.cu to yourcaffepath/src/caffe/layers/
@@ -13,7 +11,7 @@ move deformable_im2col.cu and modulated_deformable_im2col.cu to yourcaffepath/sr
 ```
   
   
-caffe.proto:
+edit caffe.proto:
 ```
 optional DeformableConvolutionParameter deformable_convolution_param = 999999;  
 optional ModulatedDeformableConvolutionParameter modulated_deformable_convolution_param = 9999999;  
@@ -81,4 +79,7 @@ Deformable_ConvNet_V1:
     
     
 Deformable_ConvNet_V2:    
-![Deformable_ConvNet_V2](https://github.com/zhanglonghao1992/ReadmeImages/blob/master/images/ZHR5PSZBMDJS48%605YZY.png)    
+![Deformable_ConvNet_V2](https://github.com/zhanglonghao1992/ReadmeImages/blob/master/images/ZHR5PSZBMDJS48%605YZY.png)      
+  
+Thanks to [offical mxnet code](https://github.com/msracver/Deformable-ConvNets)    
+Thanks to [unsky](https://github.com/unsky/Deformable-ConvNets-caffe)    
