@@ -14,6 +14,8 @@ caffe.proto:
 ```
 optional DeformableConvolutionParameter deformable_convolution_param = 999999;  
 optional ModulatedDeformableConvolutionParameter modulated_deformable_convolution_param = 9999999;  
+
+
 message DeformableConvolutionParameter {
   optional uint32 num_output = 1; 
   optional bool bias_term = 2 [default = true]; 
