@@ -4,6 +4,15 @@ Thanks to [unsky](https://github.com/unsky/Deformable-ConvNets-caffe)
   
 Add the code in your caffe:  
 --------
+```
+move deformable_conv_layer.cpp and deformable_conv_layer.cu to yourcaffepath/src/caffe/layers/
+move modulated_deformable_conv_layer.cpp and modulated_deformable_conv_layer.cu to yourcaffepath/src/caffe/layers/
+move deformable_conv_layer.hpp and modulated_deformable_conv_layer.hpp to yourcaffepath/include/caffe/layers/
+move deformable_im2col.hpp and modulated_deformable_im2col.hpp to yourcaffepath/include/caffe/util/
+move deformable_im2col.cu and modulated_deformable_im2col.cu to yourcaffepath/src/caffe/util/
+```
+  
+  
 caffe.proto:
 ```
 optional DeformableConvolutionParameter deformable_convolution_param = 999999;  
