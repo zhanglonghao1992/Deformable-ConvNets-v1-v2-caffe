@@ -11,5 +11,5 @@ Deformable_ConvNet_V2:
   
   
 caffe.proto:  
-    optional DeformableConvolutionParameter deformable_convolution_param = 999999;  
-    optional ModulatedDeformableConvolutionParameter modulated_deformable_convolution_param = 9999999;  
+    `optional DeformableConvolutionParameter deformable_convolution_param = 999999;`  
+    `optional ModulatedDeformableConvolutionParameter modulated_deformable_convolution_param = 9999999;`  
