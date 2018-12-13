@@ -1,7 +1,10 @@
 # Deformable-ConvNets(v1&v2)-caffe
   
-Experiment Result
+Experiment Result：
 --------  
+Model： Faster Rcnn （ResNet-50 backbone） without OHEM and Deformable Roi Pooling  
+Dataset：train with voc 07+12 test on voc 07  
+Deformable-V1:  
  mAP@0.5 | aeroplane | bicycle |  bird  |  boat  | bottle |  bus  |  car  |  cat  | chair |  cow  |  
  ------- |-----------|-------- |--------|--------|--------|-------|-------|-------|-------|-------|
   0.7836 |   0.8004  |  0.8071 | 0.7909 | 0.7092 | 0.6297 | 0.8582| 0.8697| 0.8951| 0.6366| 0.8516|  
