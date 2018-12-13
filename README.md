@@ -1,5 +1,10 @@
 # Deformable-ConvNets(v1&v2)-caffe
   
+Experiment Result
+--------  
+ mAP@0.5 | aeroplane |
+  0.7836 |   0.8004  |  
+
 Add the code to your caffe:  
 --------
 ```
