@@ -2,8 +2,8 @@
   
 Experiment Result：
 --------  
-Model： Faster Rcnn （ResNet-50 backbone） without OHEM and Deformable Roi Pooling  
-Dataset：train with voc 07+12 test on voc 07  
+**Model： Faster Rcnn （ResNet-50 backbone） without OHEM and Deformable Roi Pooling**    
+**Dataset：train with voc 07+12 test on voc 07**    
   
 **Deformable-V1:** 
   
