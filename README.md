@@ -1,6 +1,6 @@
 # Deformable-ConvNets(v1&v2)-caffe
   
-Experiment Result：
+Experiment Results：
 --------  
 **Model： Faster Rcnn （ResNet-50 backbone） without OHEM and Deformable Roi Pooling**    
 **Dataset：train with voc 07+12 test on voc 07**    
